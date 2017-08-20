@@ -18,7 +18,7 @@ html, body {
     width: 100%; /* Full width */
     z-index: 6;
     background: white;
-    background-image:url("blue.jpg");
+    background-image:url("img/blue.jpg");
     background-size:80px 80px;
     background-position: center;
     background-repeat: repeat;
@@ -70,7 +70,7 @@ span:hover{
 }
 
 #one {
-    background-image: url("skull.jpg");
+    background-image: url("img/skull.jpg");
     background-size:80px 80px;
     background-attachment: fixed;
     background-position: center;
@@ -91,7 +91,7 @@ span:hover{
 	padding:0;
 }
 #two{
-	background-image: url(pink.gif);
+	background-image: url("img/pink.gif");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: repeat
@@ -109,7 +109,7 @@ span:hover{
 }
 
 #three{
-	background-image: url("pineapple.png");
+	background-image: url("img/pineapple.png");
     background-size:500px 500px;
     background-attachment: fixed;
     background-position: center;
@@ -125,7 +125,7 @@ span:hover{
 }
 
 #four{
-	background-image: url(cubes.gif);
+	background-image: url("img/cubes.gif");
 
     background-attachment: fixed;
     background-position: center;
