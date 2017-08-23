@@ -25,13 +25,15 @@ html, body {
     color:white;
     box-shadow: 3px 0px 19px 1px #222;
 }
-span{
+a{
+	text-decoration: none;
 	padding:2vh;
 	font-size:2vw;
 	color:white;
 	cursor:pointer;
+	    font-family: Helvetica, Arial, sans-serif;
 }
-span:hover{
+a:hover{
 	transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
 	
 }
@@ -40,7 +42,8 @@ span:hover{
 	margin-top: 10vh
 }
 .artworks {
-    min-height: 70vh;
+    min-height: 40vh;
+    max-height: 80vh;
     margin: 0px auto;
     width: 100%;
     position: relative;
@@ -51,7 +54,7 @@ span:hover{
 .albumart{
 		padding: 5vh;
 		/*height:80vh;*/
-		width: 50vw;
+		width: 30vw;
 }
 .albumart:hover{
 	transform: scale(1.03, 1.03); /** default is 1, scale it to 1.5 */
@@ -106,7 +109,7 @@ span:hover{
 }
 
 #two-text{
-	background:pink;
+	/*background:pink;*/
 }
 
 #three{
