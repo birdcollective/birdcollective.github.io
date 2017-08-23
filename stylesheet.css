@@ -6,7 +6,8 @@ html, body {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    width: 100%
+    width: 100%;
+
 }
 
 #header{
@@ -39,7 +40,8 @@ a:hover{
 }
 
 .wrapper {
-	margin-top: 10vh
+	margin-top: 10vh;
+	background:#DCE7E9;
 }
 .artworks {
     min-height: 40vh;

@@ -33,7 +33,7 @@ var TiltAnimation = function() {
     xPosition = Math.round(xPosition * 1000) / 1000;
     yPosition = Math.round(yPosition * 1000) / 1000;
     
-    _animate(yPosition, xPosition);
+    _animatemobile(yPosition, xPosition);
     
   }
   
@@ -49,12 +49,13 @@ var TiltAnimation = function() {
     var rotationXValue = 5 * yPos;
     
     _animate(rotationYValue,rotationXValue);
-    textX.innerHTML = mouseX;
-    textY.innerHTML = mouseY;
   }
   
   var _animate = function(rotationYValue, rotationXValue) {
     TweenLite.to($('.albumart'), 0.6, { rotationY:rotationYValue, rotationX:rotationXValue, ease:Power1.easeOut, transformPerspective:100, transformOrigin:"center" });
+  }
+  var _animatemobile = function(rotationYValue, rotationXValue) {
+    TweenLite.to($('.albumart'), 0.6, { rotationY:rotationYValue, rotationX:rotationXValue, ease:Power1.easeOut, transformPerspective:900, transformOrigin:"center" });
   }
   
   return {
