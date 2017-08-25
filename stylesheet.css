@@ -2,11 +2,9 @@ html, body {
 	margin: 0;
     padding: 0;
     background: #fff;
-    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-    font-size: 15px;
-    font-weight: bold;
     color: black;
     width: 100%;
+        /*text-transform: uppercase;*/
 
 }
 
@@ -32,7 +30,8 @@ a{
 	font-size:2vw;
 	color:white;
 	cursor:pointer;
-	    font-family: Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
 }
 a:hover{
 	transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
@@ -76,8 +75,8 @@ a:hover{
 }
 
 #one {
-    background-image: url("img/skull.jpg");
-    background-size:80px 80px;
+	background-image: url("img/pattern.gif");
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat
@@ -115,11 +114,13 @@ a:hover{
 }
 
 #three{
-	background-image: url("img/pineapple.png");
-    background-size:500px 500px;
+
+
+            background-image: url("img/skull.jpg");
+    background-size:80px 80px;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat
+    background-repeat: repeat;
 
     z-index: 1;
 }
@@ -131,14 +132,17 @@ a:hover{
 }
 
 #four{
-	background-image: url("img/pattern.gif");
-
+	background-image: url("img/pineapple.png");
+    background-size:500px 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat
 
     z-index: 1;
 }
+
+
+
 
 #jonkuwada{
 	position:relative;
