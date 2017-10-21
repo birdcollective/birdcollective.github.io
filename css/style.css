@@ -11,6 +11,11 @@
 body {
 	background: linear-gradient(180deg, #d9a7c7, #fffcdc);
   height: 5000px;
+  font-family: futurastd;
+}
+
+header{
+  height: 16%;
 }
 
 
@@ -157,15 +162,17 @@ body {
 .circle-icon, .sound-on-icon {
   position: absolute;
 }
+
+
 .circle-icon {
   color: #000;
 }
 
 .sound-on-icon {
-  padding-top: 1%;
-  padding-left: .8%;
+
+ 
 }
-/* End Mute Button */
+
 
 /* Fixed Right Bar w/Social Media Icons */
 .right-fixed-bar{
@@ -173,10 +180,10 @@ body {
   height: 100%;
   position: fixed;
   z-index: 500;
-  top: 54%;
+  top: 34%;
   right: .5%;
   font-size: 10px;
-  line-height: 30px;
+  line-height: 23px;
   letter-spacing: 2px;
 }
 
@@ -185,7 +192,47 @@ body {
 }
 /* End Fixed Right Bar  */
 
-/*Start Music Section*/
+/* Start Music Section */
+
+.music-section {
+  height: 1000px;
+
+}
+
+#music{ 
+  padding-left: 9%;
+}
+
+.container-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.music-item {
+  width: 300px; 
+  height: 300px;
+  margin-right:  8%; 
+  `
+}
+
+.music-pic{ 
+  height: 300px;
+  width: 300px;
+}
+
+.row {
+  margin-bottom: 8%; 
+}
+
+.col-md-4 { 
+  padding: 0px;
+
+}
+
+/* End Music section */
 
 
 
