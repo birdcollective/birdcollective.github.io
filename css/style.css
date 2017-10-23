@@ -10,13 +10,20 @@
 
 body {
 	background: linear-gradient(180deg, #d9a7c7, #fffcdc);
-  height: 5000px;
+ /* height: 5000px;*/
   font-family: futurastd;
 }
 
 header{
   height: 16%;
 }
+
+
+.bottom-bar{ 
+  margin-top: 48%;
+  margin-left: 17%;
+  margin-bottom: 0%!important;
+ }
 
 
 
